@@ -667,7 +667,7 @@ nav ul li .dropdown-button:hover {
 }
 
 footer {
-    border: solid 1px rgb(255, 0, 0);
+    border-top: solid 1px rgb(255, 0, 0);
     background-color: #000000;
     color: #2f00ff;
     padding: 20px;
@@ -689,4 +689,44 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+.sidebar {
+    position: fixed;
+    top: 20%;
+    right: 0;
+    width: 200px;
+    background-image: url(https://th.bing.com/th/id/OIP.OGUc1dVbVz5Lf7xB8UbUwAHaHa?rs=1&pid=ImgDetMain);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px 0 0 10px;
+    z-index: 1000;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+    font-size: 18px;
+    color: #000000;
+}
+
+.sidebar p {
+    font-size: 20px;
+    color: #000000;
+}
+
+.sidebar a {
+    display: block;
+    margin-top: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #000000;
+    text-align: center;
+}
+
+.sidebar a:hover {
+    background-color: #470101;
 }
